@@ -321,3 +321,37 @@ media (max-width: 800px) {
         margin-bottom: 40px;
     }
 }
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+
+    .product-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .product-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-details {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .product-details h1 {
+        font-size: 24px;
+    }
+
+    .product-container {
+        padding: 15px;
+    }
+
+}
